@@ -13,8 +13,8 @@ Experimental results show that MSAF-YOLO (with 38.646M parameters and 147.760G F
 MSAF-YOLO (with 65.965M parameters and 308.393G FLOPs) outperformed the state-of-the-art RGBD methods by 1.1% and 1.76% in the same metrics. 
 In nearly 1,000 scene experiments, MSAF-YOLO achieved a successful grasping rate of 92.33%. 
 Compared with YOLOv8m, the average error reduction is 19.63%. 
-Our code are available at: https://github.com/JKDWYQ/MSAF-YOLO.
-
+Our code are available at: https://github.com/JKDWYQ/MSAF-YOLO. 
+(***The code will be submitted after the paper is accepted.***)
 ## Frame diagram
 <p align="center"> <img src="1.png" width="100%"> </p>
 
@@ -89,7 +89,7 @@ MSAF-YOLO
 |    OUR(m)     | 38.646       | 148    | ***0.964*** | ***0.911***  |
 |    OUR(l)     | 65.965       | 308    | ***0.965*** | ***0.914***  |
 
-[sorting video demo](./sorting_demo.mp4), Download sorting video from [baiduyun](https://pan.baidu.com/s/1G_17LfjwpyVudN11nNGn_Q?pwd=1111)
+[sorting video demo](https://www.bilibili.com/video/BV1jWqhYEETU), Download sorting video from [baiduyun](https://pan.baidu.com/s/1G_17LfjwpyVudN11nNGn_Q?pwd=1111)
 
 ## Acknowledgements
 This code is built on [YOLOv8](https://github.com/ultralytics/ultralytics/releases/tag/v8.0.139). We thank the authors for sharing the codes.
