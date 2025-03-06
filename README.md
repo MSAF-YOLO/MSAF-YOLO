@@ -13,7 +13,7 @@ Experimental results show that MSAF-YOLO (with 38.646M parameters and 147.760G F
 MSAF-YOLO (with 65.965M parameters and 308.393G FLOPs) outperformed the state-of-the-art RGBD methods by 1.1% and 1.76% in the same metrics. 
 In nearly 1,000 scene experiments, MSAF-YOLO achieved a successful grasping rate of 92.33%. 
 Compared with YOLOv8m, the average error reduction is 19.63%. 
-Our code are available at: https://github.com/JKDWYQ/MSAF-YOLO. 
+Our code are available at: https://github.com/MSAF-YOLO/MSAF-YOLO. 
 (***The code will be submitted after the paper is accepted.***)
 ## Frame diagram
 <p align="center"> <img src="1.png" width="100%"> </p>
