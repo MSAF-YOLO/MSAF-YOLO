@@ -191,7 +191,7 @@ class MSAF_Block(nn.Module):
 class MFSPPF_Module(nn.Module):
     """Spatial Pyramid Pooling - Fast (SPPF) layer for YOLOv5 by Glenn Jocher."""
 
-    def __init__(self, c1, c2, k=5, scale=3):  # equivalent to SPP(k=(5, 9, 13))
+    def __init__(self, c1, c2, k=5, scale=2):  # equivalent to SPP(k=(5, 9, 13))
         super().__init__()
         c1 = int((c2 + c2 // scale))
         c_ = c1 // 2
@@ -208,7 +208,7 @@ class MFSPPF_Module(nn.Module):
         return self.cv2(torch.cat((x, y1, y2, self.m(y2)), 1))
 
 
-class MSConcat_DCA(nn.Module):
+class MSConcat(nn.Module):
     """Concatenate a list of tensors along dimension."""
 
     def __init__(self, dimension=1):
